@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-launcher">
+        <div class="launcher-label" id="launcher-label">chat with us</div>
+        <button class="fab" id="togglebtn">🌍</button>
+    </div>
+    <aside id="chatWin" class="chat-window">
+        <header class="chat-header">
+            <div class="bot-avatar">CB</div>
+            <div>
+                <div class="header-title">chat with Me</div>
+                <div class="header-sub">Ask me anything...</div>
+            </div>
+            <button class="close-btn" id="closebtn">✖️</button>
+        </header>
+            <div class="message" id="messages">
+                <div class="message bot">Hii I am your assistant</div>
+                <div class="message user">Hi!</div>
+            </div>
+
+            <form id="chatForm" class="chat-footer">
+                <input id="inputMsg" class="input" type="text" placeholder="type a message....">
+                <button type="submit" class="send">Send</button>
+            </form>
+    </aside>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
