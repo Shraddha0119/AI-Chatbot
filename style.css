@@ -147,6 +147,7 @@ font-weight: 700;
     padding: 10px 12px;
     border: 1px solid #ccc;
 }
+
 .send{
     background: var(--accent);
     border: 0;
