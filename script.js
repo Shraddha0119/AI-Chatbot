@@ -46,6 +46,8 @@ chatform.addEventListener('submit', async(e)=>{
     appendMessage(text,'user');
     inputMsg.value = '';
 
+
+    
     const lastBot = Array.from(messages.getElementsByClassName('bot')).pop();
     if(lastBot && lastBot.textContent === '...')lastBot.remove();
 
